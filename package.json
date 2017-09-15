@@ -1,0 +1,14 @@
+{
+  "name": "production-control-object",
+  "version": "1.0.0",
+  "description": "production control icons",
+  "main": "dist/index.json",
+  "scripts": {
+    "build": "svg2json icons src/icons.json && node src/build.js"
+  },
+  "devDependencies": {
+    "json2svg": "^1.0.0",
+    "lodash": "latest",
+    "svg2json": "^1.0.2"
+  }
+}
