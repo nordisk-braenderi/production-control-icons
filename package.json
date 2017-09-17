@@ -10,5 +10,8 @@
     "json2svg": "^1.0.0",
     "lodash": "latest",
     "svg2json": "^1.0.2"
+  },
+  "dependencies": {
+    "svgo": "latest"
   }
 }
