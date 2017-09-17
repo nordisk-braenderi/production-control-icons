@@ -2,7 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const svgo = new (require('svgo'))({
   plugins: [
+    {removeTitle: true},
     {removeDimensions: true},
+    {removeUselessStrokeAndFill: true},
   ],
 });
 
